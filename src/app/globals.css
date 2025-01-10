@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --body-width: 85%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,4 +19,19 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities{
+  .size-full{
+    @apply h-full w-full;
+  }
+  .size-screen{
+    @apply h-screen w-screen;
+  }
+  .flex-center{
+    @apply flex justify-center items-center;
+  }
+  .width-body{
+    @apply w-body mx-auto;
+  }
 }

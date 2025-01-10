@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      width:{
+        body: "var(--body-width)",
+      }
     },
   },
   plugins: [],
