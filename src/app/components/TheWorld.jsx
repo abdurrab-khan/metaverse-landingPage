@@ -85,7 +85,7 @@ const TheWorld = () => {
                                     }>
                                         <div className={"flex flex-col gap-y-1.5"}>
                                             <span className={"h-fit bg-gray-500 w-fit p-2 rounded-2xl"}>
-                                            <GiWorld className="text-white text-3xl"/>
+                                            <GiWorld className="text-white text-2xl"/>
                                         </span>
                                             <p className={"text-sm"}>
                                                 ENTER THE META VERSE

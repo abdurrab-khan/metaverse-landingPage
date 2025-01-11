@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5665cb0c-a785-4e64-96fb-c598254d569a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/components/PeopleOnWorld.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/WhatsNew.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/animations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/HeaderTxt.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/HeaderTxt.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/TheWorld.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/TheWorld.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Works.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Works.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\abdur\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\abdur\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Javascript\Web\Tuto\Motion\metaverse\src\app\(app)" />
@@ -79,7 +84,8 @@
       <workItem from="1736161442303" duration="6165000" />
       <workItem from="1736421213479" duration="4724000" />
       <workItem from="1736476573953" duration="4524000" />
-      <workItem from="1736512075128" duration="1238000" />
+      <workItem from="1736512075128" duration="1558000" />
+      <workItem from="1736594563444" duration="5107000" />
     </task>
     <servers />
   </component>

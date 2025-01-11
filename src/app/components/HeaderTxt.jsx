@@ -14,7 +14,7 @@ const TextAnimation = {
 
 const HeaderTxt = ({title,classes}) => {
     return (
-        <div className={`text-center ${classes}`}>
+        <div className={`text-center text-teal-500 text-sm ${classes}`}>
             <motion.p initial={"offScreen"} whileInView={"onScreen"} transition={{
                 staggerChildren: 0.08,
             }}>

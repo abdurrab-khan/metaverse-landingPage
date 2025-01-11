@@ -1,6 +1,6 @@
 "use client";
 
-import {About, Header, Nav,TheWorld,Works} from "../components/index";
+import {About, Header, Nav, TheWorld, WhatsNew, Works,PeopleOnWorld} from "../components/index";
 
 export default function Home() {
     return (
@@ -10,6 +10,8 @@ export default function Home() {
             <About/>
             <TheWorld/>
             <Works/>
+            <WhatsNew/>
+            <PeopleOnWorld/>
         </main>
     );
 }
