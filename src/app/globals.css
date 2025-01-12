@@ -5,7 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --body-width: 85%;
+  --body-width: 80%;
 }
 
 @media (prefers-color-scheme: dark) {
