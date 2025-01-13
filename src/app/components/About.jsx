@@ -26,11 +26,11 @@ const transition = {
 const About = () => {
     return (
         <section>
-            <div className={'w-full h-[80vh]'}>
+            <div className={'width-body h-[80vh]'}>
                 <div className={"size-full flex justify-center items-center"}>
                     <div>
                         <HeaderTxt title={"About Multiverse"} />
-                        <div className={"w-2/3 mt-2 mx-auto text-center"}>
+                        <div className={"lg:w-2/3 mt-2 mx-auto text-center"}>
                             <motion.p className={"text-2xl"} initial={"offScreen"} whileInView={"onScreen"} variants={ParaAnimation} transition={transition}>
                                 <b>Metaverse</b> is a new thing in the future, where you can enjoy the virtual world by feeling like it's really real, you can feel what you feel in this metaverse world, because this is really the <b>madness of the metaverse</b> of today, using only <b>VR</b> devices you can easily explore the metaverse world you want, turn your dreams into reality. Let's <b>explore</b> the madness of the metaverse by scrolling down
                             </motion.p>

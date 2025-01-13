@@ -32,6 +32,6 @@ body {
     @apply flex justify-center items-center;
   }
   .width-body{
-    @apply w-body mx-auto;
+    @apply lg:w-body w-[90%] mx-auto;
   }
 }

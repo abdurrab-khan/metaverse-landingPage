@@ -20,16 +20,6 @@ const PeopleOnWorld = () => {
                 </div>
                 <div className={'size-full flex-1 mt-16'}>
                     <div className={'w-4/5 h-3/4 relative mx-auto'}>
-                        <div className={"h-44 rounded-3xl right-1/2 bottom-1/3 p-3 w-60 bg-blue-500 absolute z-10"}>
-                            <div className={'size-full relative overflow-hidden bg-yellow-500 rounded-3xl'}>
-                                <Image src={"/planet-01.png"} alt={"planet"} fill objectFit={'cover'}/>
-                            </div>
-                        </div>
-                        <div className={"h-44 rounded-3xl left-3/4 top-0 p-3 w-60 bg-blue-500 absolute z-10"}>
-                            <div className={'size-full relative overflow-hidden bg-yellow-500 rounded-3xl'}>
-                                <Image src={"/planet-02.png"} alt={"planet"} fill objectFit={'cover'}/>
-                            </div>
-                        </div>
                         <Image src={'/map.png'} alt={'map'} fill objectFit={'contain'}/>
                     </div>
                 </div>

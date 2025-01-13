@@ -1,13 +1,13 @@
 import React from 'react'
 import HeaderTxt from "./HeaderTxt";
 import Image from "next/image";
-import {IoNavigateCircleOutline} from "react-icons/io5";
+import {motion} from 'motion/react'
 
 const Posts = ({title,para,image}) => {
     return (
-        <div className={"flex justify-between gap-x-10 items-center"}>
-            <div className={"flex gap-14"}>
-                <div className={"h-52 w-52 rounded-3xl relative overflow-hidden"}>
+        <div className={"flex lg:flex-row flex-col justify-between gap-x-10 items-center"}>
+            <div className={"flex lg:gap-14 gap-8 flex-wrap"}>
+                <div className={"h-52 md:w-52 w-full rounded-3xl relative overflow-hidden"}>
                     <Image src={image} alt={"planet"} fill objectFit={'cover'}/>
                 </div>
                 <div className={"flex-1 flex justify-center items-start flex-col gap-4"}>
@@ -19,8 +19,10 @@ const Posts = ({title,para,image}) => {
                     </p>
                 </div>
             </div>
-            <div className={"h-28 w-28 flex-center"}>
-                <IoNavigateCircleOutline className={"size-full font-normal"}/>
+            <div className={"w-full md:w-28 h-fit mt-4 md:mt-0 flex justify-end items-center"}>
+                <div className={"h-10 w-10 text-end md:w-16 md:h-16 flex-center relative"}>
+                    <Image src={"/arrow.svg"} alt={'arrow'} layout={"fill"} objectFit={'contain'}/>
+                </div>
             </div>
         </div>
     )
@@ -28,8 +30,8 @@ const Posts = ({title,para,image}) => {
 
 const posts = [
     {
-        title:'The launch of the Metaverse makes Elon musk ketar-ketir',
-        para:'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+        para: 'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
         image:'/planet-06.png'
     },
     {
@@ -57,18 +59,18 @@ const Insight = () => {
                     </h1>
                 </div>
                 <div className={"flex-1 size-full"}>
-                    <div className={"size-full flex flex-col gap-8 mt-11"}>
+                    <motion.div initial={{y:50,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.3}} className={"size-full flex flex-col gap-8 mt-11"}>
                         {
                             posts.map((post,index) => (
                                 <Posts key={index} title={post.title} para={post.para} image={post.image}/>
                             ))
                         }
-                    </div>
+                    </motion.div>
                 </div>
             </div>
-            <div className={"grid grid-cols-3 mt-36 gap-11 h-[50vh]"}>
+            <div className={"grid lg:grid-cols-4 grid-cols-1 grid-rows-2 mt-36 gap-11 xl:h-96"}>
                 <div className={"pt-11 border p-7 rounded-3xl"}>
-                    <div className={"size-full flex flex-col gap-y-11"}>
+                    <div className={"size-full flex flex-col gap-y-11 col-span-1"}>
                         <div>
                             <h2 className={"text-4xl font-semibold"}>
                                 Samantha
@@ -90,7 +92,7 @@ const Insight = () => {
                         </div>
                     </div>
                 </div>
-                <div className={"col-span-2 rounded-3xl relative overflow-hidden"}>
+                <div className={"xl:col-span-3 col-span-2 rounded-3xl relative overflow-hidden"}>
                     <Image src={"/planet-09.png"} alt={"planet"} fill objectFit={'cover'}/>
                 </div>
             </div>

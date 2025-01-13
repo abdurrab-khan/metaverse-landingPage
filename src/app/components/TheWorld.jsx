@@ -44,11 +44,11 @@ const TheWorld = () => {
     ]
 
     return (
-        <div className="h-screen w-screen">
+        <div className="min-h-screen width-body">
             <div className="h-full w-full flex items-center justify-center">
                 <div className="h-full w-full">
                     <HeaderTxt title="The World"/>
-                    <div className="w-1/2 mt-2 mx-auto text-center">
+                    <div className="lg:w-1/2 w-full lg:mt-2 mt-6 mx-auto text-center">
                         <motion.h1
                             initial="offScreen"
                             whileInView="onScreen"
@@ -59,10 +59,10 @@ const TheWorld = () => {
                         </motion.h1>
                     </div>
                     <div className="width-body mt-16 relative">
-                        <motion.div className="w-full h-[500px] flex justify-center gap-6 items-center"
+                        <motion.div className="w-full h-[500px] md:flex hidden justify-center gap-6 items-center"
                                     initial={"offScreen"}
                                     whileInView={"onScreen"} transition={{
-                                        delayChildren:0.3,
+                            delayChildren: 0.3,
                             staggerChildren: 0.1,
                         }}>
                             {planets.map((planet, index) => (
@@ -107,6 +107,22 @@ const TheWorld = () => {
                                     </div>
                                 </motion.div>
                             ))}
+                        </motion.div>
+                        <motion.div className={"w-full flex flex-col md:hidden gap-y-8"} initial={"offScreen"} whileInView={'onScreen'} transition={{delayChildren:0.3,staggerChildren:0.1}}>
+                            {
+                                planets.map((planets,index)=>(
+                                    <motion.div key={index}
+                                                className={"w-full h-52 rounded-2xl relative overflow-hidden bg-blue-500"}
+                                                variants={ToggleContainer}>
+                                        <div className={"absolute size-full z-20 flex-center"}>
+                                            <h1 className={"text-4xl font-semibold"}>
+                                                {planets.title}
+                                            </h1>
+                                        </div>
+                                        <Image src={planets.src} alt={planets.id} layout={"fill"} objectFit={"cover"}/>
+                                    </motion.div>
+                                ))
+                            }
                         </motion.div>
                     </div>
                 </div>

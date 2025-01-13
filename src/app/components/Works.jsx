@@ -8,8 +8,8 @@ import {imageAnimationLeft} from "../../utils/animations";
 
 const Works = () => {
     return (
-        <div className={"width-body h-[70vh]"}>
-            <div className={"size-full grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 overflow-hidden"}>
+        <div className={"width-body min-h-[70vh] mt-16 lg:mt-0"}>
+            <div className={"size-full grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 overflow-hidden"}>
                 <div className={"place-items-center place-content-start"}>
                     <motion.div initial={"offScreen"} whileInView={"onScreen"} variants={imageAnimationLeft} className={"w-96 h-96 relative lg:w-[450px] lg:h-[450px]"}>
                         <Image src={"/get-started.png"} alt={"Get Started"} layout="fill" objectFit={"cover"}
@@ -17,11 +17,11 @@ const Works = () => {
                     </motion.div>
                 </div>
                 <motion.div initial={{x:100,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:0.5}}>
-                    <div className={"flex flex-col gap-y-8 mt-16 md:mt-0"}>
+                    <div className={"flex flex-col gap-y-8"}>
                         <div className={"w-full text-start"}>
                             <HeaderTxt title={"How Meta verse Works"} classes={"text-start text-teal-500 text-sm"}/>
                         </div>
-                        <div className={"w-4/5"}>
+                        <div className={"lg:w-4/5 w-full"}>
                             <h1 className={"text-6xl font-semibold"}>
                                 Get started
                                 with just a few
