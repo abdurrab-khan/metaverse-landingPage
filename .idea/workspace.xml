@@ -7,14 +7,9 @@
     <list default="true" id="5665cb0c-a785-4e64-96fb-c598254d569a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Insight.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Insight.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/PeopleOnWorld.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/PeopleOnWorld.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/TheWorld.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/TheWorld.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/WhatsNew.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/WhatsNew.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Works.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Works.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Nav.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +83,8 @@
       <workItem from="1736512075128" duration="1558000" />
       <workItem from="1736594563444" duration="5573000" />
       <workItem from="1736681031293" duration="4934000" />
-      <workItem from="1736766213370" duration="5901000" />
+      <workItem from="1736766213370" duration="6217000" />
+      <workItem from="1736848199248" duration="2230000" />
     </task>
     <servers />
   </component>

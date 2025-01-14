@@ -16,11 +16,11 @@ const textAnimation = {
 }
 
 const transition = {
-    type:"spring",
+    type: "spring",
     damping: 20,
     stiffness: 100,
     staggerChildren: 0.2,
-    duration:1
+    duration: 1
 }
 
 const iconAnimation = {
@@ -36,30 +36,30 @@ const iconAnimation = {
 }
 
 const socialMedia = [{
-    name:"linkedin",
-    icon:"linkedin.svg",
-    link:"https://www.linkedin.com"
+    name: "linkedin",
+    icon: "linkedin.svg",
+    link: "https://www.linkedin.com"
 },
     {
-        name:"reddit",
-        icon:"reddit.svg",
-        link:"https://www.reddit.com"
+        name: "reddit",
+        icon: "reddit.svg",
+        link: "https://www.reddit.com"
     },
     {
-        name:"twitter",
-        icon:"twitter.svg",
-        link:"https://www.twitter.com"
+        name: "twitter",
+        icon: "twitter.svg",
+        link: "https://www.twitter.com"
     },
     {
-        name:"discord",
-        icon:"discord.svg",
-        link:"https://www.discord.com"
+        name: "discord",
+        icon: "discord.svg",
+        link: "https://www.discord.com"
     }
 ]
 
 const Header = () => {
     return (
-        <section>
+        <section className={"relative"}>
             <div className={"mt-16 w-full relative"} style={{height: "calc(100vh - (4rem + 6rem))"}}>
                 <div className={"width-body"}>
                     <div className={"size-full relative"}>
@@ -67,8 +67,9 @@ const Header = () => {
                             <div className={"h-36 mr-8"}>
                                 <ul className={"flex md:flex-col gap-8"}>
                                     {
-                                        socialMedia.map((items)=> (
-                                            <motion.li key={items.name} layoutId={items.name} initial={"initial"} whileTap={"tap"} whileHover={"hover"}
+                                        socialMedia.map((items) => (
+                                            <motion.li key={items.name} layoutId={items.name} initial={"initial"}
+                                                       whileTap={"tap"} whileHover={"hover"}
                                                        variants={iconAnimation}>
                                         <span>
                                             <Image src={items.icon} alt={items.name} height={"22"} width={"22"}/>
@@ -84,7 +85,7 @@ const Header = () => {
                 <div className={"absolute w-full bottom-0 right-0"}>
                     <div className={"relative w-full mb-20"}>
                         <div className={"size-full"}>
-                        <div className={"w-full flex justify-end relative"}>
+                            <div className={"w-full flex justify-end relative"}>
                                 <div className={"absolute w-full -top-20 sm:-top-28 md:-top-40"}>
                                     <div className={"w-full text-center overflow-hidden"}>
                                         <motion.h1
