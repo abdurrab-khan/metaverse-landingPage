@@ -3,35 +3,95 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --body-width: 80%;
+    --background: #ffffff;
+    --foreground: #171717;
+    --body-width: 80%;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities{
-  .size-full{
-    @apply h-full w-full;
-  }
-  .size-screen{
-    @apply h-screen w-screen;
-  }
-  .flex-center{
-    @apply flex justify-center items-center;
-  }
-  .width-body{
-    @apply lg:w-body w-[90%] mx-auto;
-  }
+.gradient-01 {
+    background-image: linear-gradient(
+            270deg,
+            hsl(295deg 76% 51%) 0%,
+            hsl(284deg 70% 73%) 26%,
+            hsl(257deg 70% 86%) 39%,
+            hsl(202deg 92% 90%) 50%,
+            hsl(215deg 77% 81%) 61%,
+            hsl(221deg 73% 70%) 74%,
+            hsl(220deg 76% 51%) 100%
+    );
+    filter: blur(125px);
+}
+
+.gradient-02 {
+    position: absolute;
+    width: 200px;
+    height: 438px;
+    top: 0px;
+    right: 0px;
+
+    background: #7aebfb;
+    filter: blur(190px);
+}
+
+.gradient-03 {
+    position: absolute;
+    width: 404px;
+    height: 800px;
+    left: 20%;
+    top: 5%;
+
+    background: rgba(149, 66, 232, 0.35);
+    filter: blur(175px);
+    transform: rotate(-114.2deg);
+}
+
+.gradient-04 {
+    position: absolute;
+    width: 304px;
+    height: 100vh;
+    left: 30%;
+    top: 10%;
+
+    background: rgba(45, 72, 152, 0.75);
+    filter: blur(200px);
+    transform: rotate(-53.13deg);
+}
+
+.gradient-05 {
+    background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.04) 0%,
+            rgba(255, 255, 255, 0) 100%
+    );
+}
+
+@layer utilities {
+    .size-full {
+        @apply h-full w-full;
+    }
+
+    .size-screen {
+        @apply h-screen w-screen;
+    }
+
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+
+    .width-body {
+        @apply lg:w-body w-[90%] mx-auto;
+    }
 }

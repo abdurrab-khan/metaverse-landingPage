@@ -111,10 +111,11 @@ const Header = () => {
                                 <div
                                     className={"w-[90%] md:w-[80%] h-96 overflow-hidden rounded-tl-[6rem] rounded-bl-3xl"}>
                                     <img src={"/cover.png"} alt={"cover"} className={"size-full object-cover"}/>
-                                    <div
+                                    <a
+                                        href={"#explore"}
                                         className={"absolute h-40 w-40 rounded-full -bottom-[5rem] right-20 md:right-40 overflow-hidden"}>
                                         <img src={"/stamp.png"} alt={"logo"} className={"size-full object-cover"}/>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>

@@ -7,9 +7,15 @@
     <list default="true" id="5665cb0c-a785-4e64-96fb-c598254d569a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Insight.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Insight.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/PeopleOnWorld.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/PeopleOnWorld.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/TheWorld.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/TheWorld.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\abdur\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\abdur\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Javascript\Web\Tuto\Motion\metaverse\src\app\(app)" />
@@ -84,7 +90,10 @@
       <workItem from="1736594563444" duration="5573000" />
       <workItem from="1736681031293" duration="4934000" />
       <workItem from="1736766213370" duration="6217000" />
-      <workItem from="1736848199248" duration="2230000" />
+      <workItem from="1736848199248" duration="2613000" />
+      <workItem from="1736940869820" duration="2726000" />
+      <workItem from="1737020506529" duration="3135000" />
+      <workItem from="1737198728412" duration="2067000" />
     </task>
     <servers />
   </component>

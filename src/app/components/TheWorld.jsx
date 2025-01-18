@@ -44,7 +44,7 @@ const TheWorld = () => {
     ]
 
     return (
-        <div className="min-h-screen width-body">
+        <div className="min-h-screen width-body" id={"explore"}>
             <div className="h-full w-full flex items-center justify-center">
                 <div className="h-full w-full">
                     <HeaderTxt title="The World"/>
@@ -112,7 +112,7 @@ const TheWorld = () => {
                             {
                                 planets.map((planets,index)=>(
                                     <motion.div key={index}
-                                                className={"w-full h-52 rounded-2xl relative overflow-hidden bg-blue-500"}
+                                                className={"w-full h-52 rounded-2xl relative overflow-hidden"}
                                                 variants={ToggleContainer}>
                                         <div className={"absolute size-full z-20 flex-center"}>
                                             <h1 className={"text-4xl font-semibold"}>

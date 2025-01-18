@@ -1,6 +1,7 @@
 import React from 'react'
 import {BsHeadsetVr} from "react-icons/bs";
 import {AiFillFacebook, AiFillYoutube, AiOutlineTwitter} from "react-icons/ai";
+import {motion} from "motion/react"
 
 const Footer = () => {
     return (
@@ -11,13 +12,16 @@ const Footer = () => {
                         Enter the metaverse
                     </h1>
                     <div>
-                        <button
+                        <motion.button
+                            initial={{scale:1}}
+                            whileHover={{scale:1.04}}
+                            whileTap={{scale:0.98}}
                             className={"bg-[#25618b] flex gap-x-5 items-center justify-center px-6 py-4 rounded-full"}>
                             <BsHeadsetVr className={"text-3xl"}/>
                             <span>
                             ENTER METAVERSE
                         </span>
-                        </button>
+                        </motion.button>
                     </div>
                 </div>
                 <div className={'flex-1 flex flex-col justify-center size-full pb-4 lg:pb-0'}>

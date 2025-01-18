@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const PeopleOnWorld = () => {
     return (
-        <div className={"width-body h-screen"}>
+        <div className={"width-body md:h-screen h-[70vh]"}>
             <div className={'flex flex-col size-full'}>
                 <div className={"h-fit"}>
                     <HeaderTxt title={"People on world"}/>
                 </div>
                 <div className={'flex flex-col gap-y-11 h-fit'}>
-                    <div className={"w-5/6 mx-auto"}>
+                    <div className={"w-full md:w-5/6 mx-auto"}>
                         <div className={"text-center mt-8"}>
-                            <h1 className={"text-5xl font-semibold"}>
+                            <h1 className={"text-4xl md:text-5xl font-semibold"}>
                                 Track friends around you and invite them to play together in the same world.
                             </h1>
                         </div>
