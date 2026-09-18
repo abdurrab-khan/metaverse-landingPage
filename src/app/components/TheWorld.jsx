@@ -2,7 +2,7 @@
 
 import React, {useState} from 'react'
 import HeaderTxt from "../components/HeaderTxt"
-import {motion} from "framer-motion"
+import {motion} from "motion/react"
 import Image from "next/image"
 import {GiWorld} from "react-icons/gi";
 

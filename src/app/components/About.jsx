@@ -25,7 +25,7 @@ const transition = {
 
 const About = () => {
     return (
-        <section>
+        <section id="about">
             <div className={'width-body h-[80vh]'}>
                 <div className={"size-full flex justify-center items-center"}>
                     <div>

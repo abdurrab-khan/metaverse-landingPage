@@ -108,8 +108,12 @@ const Header = () => {
                                         </motion.h1>
                                     </div>
                                 </div>
-                                <div
-                                    className={"w-[90%] md:w-[80%] h-96 overflow-hidden rounded-tl-[6rem] rounded-bl-3xl"}>
+                                <a
+                                href={"#about"}
+                                className={"absolute left-0 bottom-0 w-24 h-24 hidden sm:block"}>
+                                <img src={"/metaverse.gif"} alt={"scroll down"} className={"size-full object-contain"}/>
+                            </a>
+                            <div className={"w-[90%] md:w-[80%] h-96 overflow-hidden rounded-tl-[6rem] rounded-bl-3xl"}>
                                     <img src={"/cover.png"} alt={"cover"} className={"size-full object-cover"}/>
                                     <a
                                         href={"#explore"}
